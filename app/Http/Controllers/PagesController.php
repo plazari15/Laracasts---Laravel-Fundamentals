@@ -21,4 +21,8 @@ class PagesController extends Controller
             'Idade' => '18 Anos'
         ]);
     }
+
+    public function contact(){
+        return view('pages.contact');
+    }
 }
