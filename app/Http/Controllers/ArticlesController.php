@@ -24,4 +24,11 @@ class ArticlesController extends Controller
 
         return view('articles.show', compact('Article'));
     }
+
+    /**
+     * Controller para chamada de Create
+     */
+    public function create(){
+        return view('articles.create');
+    }
 }
