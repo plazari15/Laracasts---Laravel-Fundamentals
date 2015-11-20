@@ -13,8 +13,9 @@ class ArticlesController extends Controller
 {
     public function index()
     {
+        //$Articles = Article::latest('published_at')->where('published_at', '<=', Carbon::now())->get(); //Esse metodo vai exibir posts com WHERE
         //$Articles = Article::latest('published_at')->get(); //Esse metodo é facilitado pela classe
-        $Articles = Article::orderby('published_at', 'desc')->get(); //Esse é algo mais manual
+        //$Articles = Article::orderby('published_at', 'desc')->get(); //Esse é algo mais manual
 
         return view('articles.index', compact('Articles'));
         // return view('articles.index')->with('Articles', $Article); //Isso e o mesmo que a funçao acima

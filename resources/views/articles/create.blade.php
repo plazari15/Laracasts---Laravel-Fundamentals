@@ -15,6 +15,11 @@
         {!! Form::textarea('body', null, ['class' => 'form-control']) !!}
     </div>
 
+    <div class="form-group">
+        {!! Form::label('published_at', 'Publish On:') !!}
+        {!! Form::input('date', 'published_at', date('Y-m-d'), ['class' => 'form-control']) !!}
+    </div>
+
     {!! Form::submit('Add Article', ['class' => 'btn btn-success form-control']) !!}
     {!! Form::close() !!}
 @stop
