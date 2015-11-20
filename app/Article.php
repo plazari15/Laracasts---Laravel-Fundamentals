@@ -13,6 +13,8 @@ class Article extends Model
         'published_at'
     ];
 
+    protected $dates = ['published_at'];
+
     /**
      * Com essa funçao abaixo voce pode determinar modificaçoes no que foi enviado,
      * antes mesmo que ele seja armazenado no Banco de Dados
