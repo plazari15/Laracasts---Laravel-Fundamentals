@@ -27,4 +27,18 @@ class Article extends Model
     public function setPublishedAtAttribute($date){
         $this->attributes['published_at'] = Carbon::createFromFormat('Y-m-d H:i:s', $date);
     }
+
+    /**
+     * Cria nosso primeiro scopo de classe.
+     * Funciona assim, agora pode ser usado em toda a aplicaçao.
+     * @param $query recebe a query e insere o que quiser
+     *
+     */
+    public function scopePublished($query){
+        $query->where('published_at', '<=', Carbon::now());
+    }
+
+    public function scopeUnPublished($query){
+        $query->where('published_at', '>=', Carbon::now());
+    }
 }

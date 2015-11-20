@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="658543c3-aa1b-48a7-ad97-528982bccc45" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Article.php" afterPath="$PROJECT_DIR$/app/Article.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/articles/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/articles/create.blade.php" />
     </list>
     <ignored path="learning-laravel.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6363636">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
               <folding>
                 <element signature="e#40#58#0#PHP" expanded="true" />
               </folding>
@@ -62,8 +60,8 @@
       <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.0">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state vertical-scroll-proportion="-17.931034">
+              <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
               <folding>
                 <element signature="e#23#41#0#PHP" expanded="true" />
               </folding>
@@ -254,7 +252,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="bye&#9;ACTION&#9;CloseProject&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;metodo&#9;ACTION&#9;GotoSymbol&#10;Artic&#9;null&#9;null&#10;Article&#9;null&#9;null&#10;Articl&#9;FILE&#9;file:///var/www/html/learning-laravel/app/Http/Controllers/ArticlesController.php&#10;termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;route&#9;FILE&#9;file:///var/www/html/learning-laravel/app/Http/routes.php&#10;Art&#9;FILE&#9;file:///var/www/html/learning-laravel/app/Http/Controllers/ArticlesController.php&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;rout&#9;FILE&#9;file:///var/www/html/learning-laravel/app/Http/routes.php&#10;te&#9;ACTION&#9;ActivateTerminalToolWindow&#10;routes&#9;FILE&#9;file:///var/www/html/learning-laravel/app/Http/routes.php" />
+    <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow&#10;bye&#9;ACTION&#9;CloseProject&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;metodo&#9;ACTION&#9;GotoSymbol&#10;Artic&#9;null&#9;null&#10;Article&#9;null&#9;null&#10;Articl&#9;FILE&#9;file:///var/www/html/learning-laravel/app/Http/Controllers/ArticlesController.php&#10;termin&#9;ACTION&#9;ActivateTerminalToolWindow&#10;route&#9;FILE&#9;file:///var/www/html/learning-laravel/app/Http/routes.php&#10;Art&#9;FILE&#9;file:///var/www/html/learning-laravel/app/Http/Controllers/ArticlesController.php&#10;rout&#9;FILE&#9;file:///var/www/html/learning-laravel/app/Http/routes.php&#10;te&#9;ACTION&#9;ActivateTerminalToolWindow&#10;routes&#9;FILE&#9;file:///var/www/html/learning-laravel/app/Http/routes.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -685,6 +683,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.931034">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
+          <folding>
+            <element signature="e#23#41#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/articles/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.965517">
@@ -693,20 +701,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.0">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#23#41#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticlesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6363636">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
           <folding>
             <element signature="e#40#58#0#PHP" expanded="true" />
           </folding>
