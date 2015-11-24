@@ -44,12 +44,12 @@ class ArticlesController extends Controller
     /**
      * Controller para armazenar no banco de dados
      */
-    public function store()
+    public function store( Requests\CreateAticleRequest $request)
     {
         $input = Request::all();
         $input['published_at'] = Carbon::now();
 
-        Article::create($input);
+        Article::create($request->all());
 
         return redirect('articles');
     }
