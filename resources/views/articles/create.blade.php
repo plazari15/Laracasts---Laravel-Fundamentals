@@ -22,4 +22,15 @@
 
     {!! Form::submit('Add Article', ['class' => 'btn btn-success form-control']) !!}
     {!! Form::close() !!}
+
+    <pre>
+        {{var_dump($errors)}}
+    </pre>
+    @if ($errors->any())
+        <ul class="alert alert-danger">
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    @endif
 @stop
